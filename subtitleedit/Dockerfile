@@ -14,8 +14,8 @@ RUN \
     mono-xsp4 && \
   echo "**** install subtitleedit ****" && \
   mkdir /SubtitleEdit && \
-  wget https://github.com/SubtitleEdit/subtitleedit/releases/download/3.5.11/SE3511.zip && \
-  unzip -d /SubtitleEdit SE3511.zip && \
+  wget https://github.com/SubtitleEdit/subtitleedit/releases/download/3.6.1/SE361.zip && \
+  unzip -d /SubtitleEdit SE361.zip && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
